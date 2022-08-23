@@ -1,0 +1,49 @@
+.navigation-bar {
+    display: flex;
+    box-shadow: rgb(3 27 78 / 10%) 0px 2px 4px;
+    min-height: 65px;
+    padding: 0px 32px;
+    position: relative;
+    width: 100%;
+    z-index: 15;
+    justify-content: space-between;
+}
+
+.left-elements {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo-icon {
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    padding: 8px 6px 3px;
+}
+
+.logo-text {
+    display: inline-block;
+    width: 120px;
+}
+
+.middle element {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.right-elements{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-button {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.login-button-description{
+    font-size: small;
+    padding: 10px;
+}

@@ -1,0 +1,92 @@
+.landing-canvas {
+    -webkit-box-align: center;
+    align-items: center;
+    color: var(--colors-white);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    background-image: url(
+        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hLvf4f8A7qWwQHU1IJLZ56Y2wsp8ZBsbKw&usqp=CAU);
+    background-size: cover;
+    max-height: 1100px;
+    min-height: 500px;
+    filter: sepia(100%) hue-rotate(190deg) saturate(200%);
+    color: white;
+    
+}
+
+.canvas-title {
+    margin-bottom: var(--units-large);
+    text-decoration: underline;
+}
+
+.canvas-title-strong {
+    color: rgb(10, 20, 10);
+}
+
+.conta-button {
+    background-color: rgb(74, 111, 198);
+    color: white;
+    border: 0ch;
+}
+
+.landing-benefits {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.benefits {
+    margin: auto;
+    max-width: var(--content-width);
+    padding-left: var(--units-large);
+    padding-right: var(--units-large);
+    box-sizing: content-box;
+}
+
+.benefits-title {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.benefits-list {
+    box-sizing: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3%;
+    padding: 0px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.benefits-list-element {
+    flex-direction: row;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+}
+
+.benefits-list-element-icon {
+    margin: auto;
+    margin-right: 15px;
+}
+
+.benefits-list-element-content {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.benefits-list-element-content-title {
+    margin-top: auto;
+    margin-bottom: 1%;
+}
+
+.benefits-list-element-content-description {
+    color: gray;
+    font-size: medium;
+    margin: 0px;
+}
